@@ -38,6 +38,32 @@ export default function App() {
             <span>{SHOP_INFO.locationName[lang]}</span>
           </div>
         </div>
+
+        {/* Made by section */}
+        <div className="max-w-6xl mx-auto mt-6 pt-4 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-2 text-slate-400">
+          <p>
+            Made by <span className="font-semibold text-slate-300">@Xenosys Qatar</span>
+          </p>
+          <div className="flex items-center gap-4">
+            <a 
+              href="https://Xenosysweb.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:text-emerald-400 transition-colors"
+            >
+              Xenosysweb.com
+            </a>
+            <span>•</span>
+            <a 
+              href="https://wa.me/97470643918" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:text-emerald-400 transition-colors"
+            >
+              WhatsApp: 7064 3918
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
   );
